@@ -1,4 +1,117 @@
-body{
-	background-image: url("unit_3/images/test.jpg")
-    background-color: #cccccc;
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #4053ff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+a {
+    color: #ffd9d2;
+    text-decoration: none;
+    position: relative;
+	text-decoration: none;
+}
+
+a:hover {
+  	color: #333;
+  	transition:.5s; /* A .5 second transition. */
+}
+
+#logo {
+	font-family: 'Works Sans', sans-serif;
+	font-weight: 100;
+	font-size:14px;
+	letter-spacing: .125em;
+	color: #ffd9d2;
+	margin-left: 105px;
+	padding-top: 80px;
+	display: inline-block;
+}
+
+#about {
+	font-family: 'Works Sans', sans-serif;
+	font-weight: 100;
+	font-size:14px;
+	letter-spacing: .125em;
+	color: #ffd9d2;
+	margin-left: 200px;
+	display: inline-block;
+}
+
+#copyright {
+	font-family: 'Works Sans', sans-serif;
+	font-weight: 100;
+	font-size:11px;
+	letter-spacing: .1em;
+	color: #ffd9d2;
+	margin-left: 105px;
+	margin-top: 120px;
+	margin-bottom: 80px;
+}
+
+.number {
+	font-size:12px;
+	font-family: 'PT Serif', serif;
+	font-style: italic;
+	font-weight: 100;
+	color: #333;
+	display: inline-block;
+	border-style: solid;
+	border-color: #333;
+    border-width: 1px;
+  	padding: 8px;
+  	margin-left: -25px;
+	position: absolute;
+	letter-spacing:.125em;
+	z-index: 999;
+
+	/* Rotate div */
+    -ms-transform: rotate(-25deg); /* IE 9 */
+    -webkit-transform: rotate(-25deg); /* Chrome, Safari, Opera */
+    transform: rotate(-25deg);
+}
+
+.titleNav {
+	font-family: 'Works Sans', sans-serif;
+	font-size: 120px;
+	font-weight: 900;
+	color: #ffd9d2;
+	padding-left: 100px;
+	padding-top: 120px;
+	padding-right: 100px;
+
+}
+
+/*---border---*/
+#top, #bottom, #left, #right {
+	background-color: #ffd9d2;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 5px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 5px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+
+/*.gradient {
+  	background-image: linear-gradient(#fcd6ff, #36b2f5);
+}
+*/
+
+/*html { 
+  background: url("../images/test.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
