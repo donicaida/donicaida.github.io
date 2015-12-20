@@ -1,4 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,900,800,300,200,100);
+
 body {
+    font-size: 10px;
     height: 100%;
     margin: 0;
     background-color: #4053ff;
@@ -20,7 +23,7 @@ a:hover {
 #logo {
 	font-family: 'Works Sans', sans-serif;
 	font-weight: 100;
-	font-size:14px;
+	font-size:1.4em;
 	letter-spacing: .125em;
 	color: #ffd9d2;
 	margin-left: 105px;
@@ -31,7 +34,7 @@ a:hover {
 #about {
 	font-family: 'Works Sans', sans-serif;
 	font-weight: 100;
-	font-size:14px;
+	font-size:1.4em;
 	letter-spacing: .125em;
 	color: #ffd9d2;
 	margin-left: 200px;
@@ -41,7 +44,7 @@ a:hover {
 #copyright {
 	font-family: 'Works Sans', sans-serif;
 	font-weight: 100;
-	font-size:11px;
+	font-size:1.1em;
 	letter-spacing: .1em;
 	color: #ffd9d2;
 	margin-left: 105px;
@@ -59,7 +62,7 @@ a:hover {
 	border-style: solid;
 	border-color: #333;
     border-width: 1px;
-  	padding: 8px;
+  	padding: 0.8em;
   	margin-left: -25px;
 	position: absolute;
 	letter-spacing:.125em;
@@ -73,7 +76,7 @@ a:hover {
 
 .titleNav {
 	font-family: 'Works Sans', sans-serif;
-	font-size: 120px;
+	font-size: 12em;
 	font-weight: 900;
 	color: #ffd9d2;
 	padding-left: 100px;
